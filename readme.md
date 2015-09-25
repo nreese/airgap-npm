@@ -1,11 +1,11 @@
-==airgap-npm
+##airgap-npm
 Some of us are forced to work on airgapped systems (no internet connection).
 This makes working with package management systems a real pain. This project contains everything needed to setup an NPM repo on a airgapped system. 
 
-==Setup
+##Setup
 Follow all setup instructions on machine with internet connection.
 
-===Install Sinopia
+###Install Sinopia
 Sinopia, https://github.com/rlidwka/sinopia, is an excellent NPM repo and the basis for this solution. 
 
 Sinopia install instructions suggest a global install. This project requires something more self contained. As such, follow the instructions below to install sinopia into a folder that can easily be compressed and tranfered with physical media.
@@ -15,7 +15,7 @@ Sinopia install instructions suggest a global install. This project requires som
 npm install
 ```
 
-===Load dependencies
+###Load dependencies
 * Start sinopia
 
 ```
@@ -43,7 +43,7 @@ npm install
 ```
 
 
-==Test it
+##Test it
 There is nothing worse than bringing in a new repo only find that a dependency is missing. Test your repo to insure you can do a clean build without internet access. 
 * turn off wifi
 * delete local npm cache
@@ -69,7 +69,7 @@ uplinks:
 * Load global and local npm packages.
 
 
-==SneakerNet
+##SneakerNet
 * Compress the sinopia directory and export to physical media. Transfer physical media to airgapped network.
 * Uncompress and start sinopia
 * Configure NPM to use sinopia
