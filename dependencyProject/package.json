@@ -1,0 +1,10 @@
+{
+  "name": "dependency-project",
+  "version": "1.0.0",
+  "description": "project to manage a bunch of npm dependencies to load NPM repo",
+  "dependencies": {
+    "express": "^4.13.3",
+    "mongo": "^0.1.0",
+    "yargs": "^3.25.0"
+  }
+}

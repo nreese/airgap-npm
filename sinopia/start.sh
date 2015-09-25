@@ -1,0 +1,1 @@
+node_modules/sinopia/bin/sinopia -c config.yaml
