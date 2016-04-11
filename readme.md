@@ -5,13 +5,17 @@ This makes working with package management systems a real pain. This project con
 ##Setup
 Follow all setup instructions on machine with internet connection.
 
+```
+  git clone git@github.com:nreese/airgap-npm.git
+```
+
 ###Install Sinopia
 Sinopia, https://github.com/rlidwka/sinopia, is an excellent NPM repo and the basis for this solution. 
 
 Sinopia install instructions suggest a global install. This project requires something more self contained. As such, follow the instructions below to install sinopia into a folder that can easily be compressed and tranfered with physical media.
 
 ```
-//airgap-npm/sinpoia directory
+cd airgap-npm/sinopia
 npm install
 ```
 
@@ -19,7 +23,7 @@ npm install
 * Start sinopia
 
 ```
-//airgap-npm/sinpoia directory
+cd airgap-npm/sinopia
 ./start.sh
 ```
 
