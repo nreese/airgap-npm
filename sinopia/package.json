@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "description": "simple project to wrap sinopia for running without global install",
   "dependencies": {
-    "sinopia": "^1.4.0"
+    "sinopia2": "2.0.1"
   }
 }

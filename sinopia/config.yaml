@@ -16,9 +16,9 @@ auth:
     #max_users: 1000
 
 # a list of other known repositories we can talk to
-#uplinks:
-#  npmjs:
-#    url: https://registry.npmjs.org/
+uplinks:
+  npmjs:
+    url: https://registry.npmjs.org/
 
     # amount of time to wait for repository to respond
     # before giving up and use the local cached copy
@@ -52,6 +52,7 @@ packages:
     # scoped packages
     allow_access: $all
     allow_publish: $authenticated
+    proxy: npmjs
 
   '*':
     # allow all users (including non-authenticated users) to read and
